@@ -66,8 +66,8 @@ render(
 
       <Main>
             <Route exact path="/" component={Home}/>
-            <Route path="/cars" render={(props) => (<Car {...props} data={data}/>)}/>
-            <Route path="/cars/:id" render={(props) => (<CarDetail {...props} data={data}/>)}/>
+            <Route path="/phones" render={(props) => (<Car {...props} data={data}/>)}/>
+            <Route path="/phones/:id" render={(props) => (<CarDetail {...props} data={data}/>)}/>
             <Route path="/about" component={About}/>
       </Main>
 
